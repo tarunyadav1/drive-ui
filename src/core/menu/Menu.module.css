@@ -1,0 +1,14 @@
+.nav {
+  border-bottom: 1px solid rgb(204, 191, 191);
+}
+
+.log {
+  width: 40px;
+  height: 40px;
+}
+
+.name {
+  color: #5f6368;
+  font-size: 22px;
+  padding-left: 2px;
+}

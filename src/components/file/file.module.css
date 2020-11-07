@@ -1,0 +1,24 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid rgb(204, 195, 195);
+  width: fit-content;
+  padding: 2rem 2rem 1rem 2rem;
+  border-radius: 5px;
+  min-width: 206px;
+  margin: 0 1rem 1rem 0;
+}
+
+.active {
+  background-color: #e8f0fe;
+}
+.active div {
+  color: #1967d2;
+}
+.name {
+  padding-top: 2rem;
+  max-width: 6rem;
+  overflow: hidden;
+}

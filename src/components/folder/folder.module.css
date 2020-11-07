@@ -1,0 +1,28 @@
+.container {
+  display: flex;
+  align-items: center;
+  border: 1px solid rgb(204, 195, 195);
+  padding: 0.7rem 3rem 0.7rem 0.5rem;
+  width: fit-content;
+  border-radius: 5px;
+  min-width: 206px;
+  margin: 0 1rem 1rem 0;
+}
+
+.active {
+  background-color: #e8f0fe;
+}
+.active div {
+  color: #1967d2;
+}
+.image img {
+  width: 30px;
+  height: 30px;
+  margin: 0 1rem 0 0.5rem;
+}
+
+.name {
+  font-weight: 600;
+  color: gray;
+  margin: 0 1rem 0 0;
+}

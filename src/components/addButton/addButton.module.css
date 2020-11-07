@@ -1,0 +1,49 @@
+.container {
+  display: flex;
+  align-items: center;
+  border: 1px solid transparent;
+  box-shadow: 0 1px 2px 0 rgba(60, 64, 67, 0.302),
+    0 1px 3px 1px rgba(60, 64, 67, 0.149);
+  border-radius: 9999px;
+  padding: 0.5rem 0;
+  margin-top: 1rem;
+  width: fit-content;
+  cursor: pointer;
+  transition: all 0.2s;
+}
+
+.container:hover {
+  color: #3c4043;
+  box-shadow: 3px 3px 2px 3px rgba(60, 64, 67, 0.302),
+    3px31px 3px 3px rgba(60, 64, 67, 0.149);
+  transition: all 0.2s;
+}
+
+.image img {
+  width: 35px;
+  height: 35px;
+  margin: 0 0.5rem 0 1rem;
+}
+
+.text {
+  font-size: 17px;
+  margin: 0 1.5rem 0 0;
+}
+
+.container2 {
+  border: 1px solid rgb(204, 195, 195);
+  border-radius: 5px;
+  margin-top: 0.5rem;
+  cursor: pointer;
+}
+
+.folder {
+  padding: 0.5rem 0 0.5rem 0.5rem;
+  font-weight: bold;
+  border-bottom: 1px solid rgb(204, 195, 195);
+}
+
+.file {
+  padding: 0.5rem 0 0.5rem 0.5rem;
+  font-weight: bold;
+}

@@ -1,0 +1,4 @@
+.folderGrid {
+  display: flex;
+  flex-wrap: wrap;
+}
